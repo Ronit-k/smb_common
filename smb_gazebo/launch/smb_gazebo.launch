@@ -6,7 +6,7 @@
   <!-- Run Gazebo headless -->
   <arg name="headless"                              default="false"/>
   <!-- Model path -->
-  <arg name="model_path"                            default="$(find smb_gazebo)/"/>
+  <arg name="model_path"                            default="~/Workspace/smb_ws/src/smb_common/smb_gazebo/"/>
   <arg name="robot_namespace"                       default=""/>
   <arg name="robot_model_name"                      default="smb"/>
   <arg name="enable_ekf"                            default="true"/>
@@ -14,7 +14,7 @@
   <!-- Name of the world -->
   <arg name="world"                                 default="empty"/>
   <!-- Path to the world file -->
-  <arg name="world_file"                            default="$(find smb_gazebo)/worlds/$(arg world).world"/>
+  <arg name="world_file"                            default="~/Workspace/smb_ws/src/smb_common/smb_gazebo/worlds/$(arg world).world"/>
   <arg name="laser_enabled"							            default="true"/>
 
   <!-- Set the initial pose of the robot's main body -->
